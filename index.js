@@ -38,6 +38,6 @@ client.on(`messageCreate`, async message => {
 		await message.reply('your message includes password');
 	}
     console.log(message);
-})
+});
 
 client.login(token);
